@@ -1,6 +1,19 @@
 # DRAM Simulation Project
 
-This project simulates DRAM memory systems using DRAMsim3, with a focus on HBM (High Bandwidth Memory) performance analysis.
+This project provides a comprehensive simulation framework for analyzing DRAM memory systems using DRAMsim3. The focus is on evaluating performance characteristics of different memory architectures, particularly HBM (High Bandwidth Memory), DDR3, and DDR4.
+
+Key features include:
+- Detailed simulation of memory timing, power consumption, and thermal behavior
+- Support for various DRAM standards (DDR3, DDR4, HBM, HMC, GDDR)
+- Performance comparison across different workloads (random, stream, matrix operations, etc.)
+- Automated benchmark generation and visualization tools
+- Thermal modeling capabilities for analyzing heat distribution
+
+The project includes pre-configured memory controller settings and provides tools for generating custom memory access patterns. It's particularly useful for:
+- Computer architecture research
+- Memory system design optimization
+- Performance prediction of real-world applications
+- Educational purposes in computer engineering
 
 ## Project Structure
 
